@@ -1,0 +1,49 @@
+# ~/.aliases
+
+alias ll='ls -hNl --color=auto'
+alias lla='ls -hNal --color=auto'
+alias ccd='cd ~/travail/cpp/seb'
+alias cch='cd ~/travail/hongrois'
+alias cchc='cd ~/travail/hongrois/cours'
+alias ccs='cd ~/travail/scripts'
+alias cct='cd ~/travail'
+alias ccz='cd /mnt/zd'
+alias cca='cd ~/travail/cpp/seb/arduino'
+alias ccad='cd ~/travail/cpp/arduino-divers'
+alias ccb='cd /mnt/btr'
+
+alias ccslib='cd ~/travail/cpp/seb/arduino/libraries'
+alias ccalib='cd ~/travail/arduino-1.8.9/libraries'
+alias cccom='cd ~/travail/cpp/seb/arduino/868/cc1101/cc1101-com'
+alias ccdom='cd ~/travail/cpp/seb/arduino/868/domotique'
+
+alias zl='zfs list'
+alias zla='zfs list -t all'
+alias zg='zfs get'
+alias zga='zfs get all'
+alias zps='zpool status'
+alias zpl='zpool list'
+
+alias musb='mount | grep "\bsd[a-z]"'
+
+alias g='git'
+alias gst='git status'
+alias gg='git --no-pager'
+
+alias zgit="git log --oneline | fzf --bind \"ctrl-q:preview-page-up,ctrl-w:preview-page-down\" --layout=reverse-list --multi --preview 'git show {+1}'"
+alias zll='find -maxdepth 1 -type f | fzf --bind "ctrl-q:preview-page-up,ctrl-w:preview-page-down" --preview="cat {-1}"'
+alias zprev='fzf --bind "ctrl-q:preview-page-up,ctrl-w:preview-page-down" --preview="cat {1}"'
+alias zrprev='fzf --layout=reverse-list --bind "ctrl-q:preview-page-up,ctrl-w:preview-page-down" --preview="cat {1}"'
+
+# From https://wiki.archlinux.org/index.php/Fzf
+alias zpac='pacman -Slq | fzf --multi --preview '"'"'pacman -Si {1}'"'"
+alias zpacf='pacman -Slq | fzf --multi --preview '"'"'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")'"'"
+
+alias -s pdf=evince
+alias -s html=firefox
+alias -s mp4=vlc
+alias -s mov=vlc
+alias -s mp3=totem
+alias -s jpg=eog
+alias -s png=eog
+

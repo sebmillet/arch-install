@@ -1,0 +1,19 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/vol-rootfs
+UUID=f463b09c-3d05-48d7-bdd1-99637d2aab51 /            ext4   rw,relatime                     0 1
+
+# /dev/nvme0n1p1
+UUID=95F8-7F02                            /boot        vfat   rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 2
+
+# /dev/mapper/vol-swap
+UUID=bfa09ce7-a424-40b1-88cf-973c56b6d213 none         swap   defaults                        0 0
+
+# /dev/mmcblk0p3
+UUID=b66e34ac-580e-4a82-8dd0-96ee8b0e3eee /mnt/ubuntu  auto   noauto,nodev,noexec,users       0 0
+
+# /dev/mmcblk0p1
+UUID=ae1163db-d091-434a-98db-bf19dc41e4bf /mnt/csdcard ext4   rw,nosuid,nodev,noatime,users   0 0
+
