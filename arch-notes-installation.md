@@ -328,6 +328,16 @@ LANG='' tldr -u</span></b></code></pre>
 * [Fichier ~/.vimrc](fichiers/.vimrc)
 * [Archive de la configuration intégrale](fichiers/vimconfig.tar.gz)
 
+***
+
+arch-notes-installation (c) by Sébastien Millet
+
+arch-notes-installation is licensed under a
+Creative Commons Attribution 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by/4.0/>.
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 <!--- vim: tw=80:ts=3:sw=3:et
